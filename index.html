@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- box icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+
+    <!-- custom CSS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .portfolio-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+
+      .portfolio-box {
+          flex: 0 0 calc(50% - 10px); /* 50% width with some space between items */
+          margin-bottom: 20px;
+      }
+
+      .portfolio-box img {
+          width: 100%;
+          height: auto;
+      }
+
+      .portfolio-layer {
+          background-color: #f4f4f4;
+          padding: 10px;
+          text-align: center;
+      }
+  </style>
+  </head>
+
+  <body>
+    <!-- header design  -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact me">Contact me</a>
+      </nav>
+    </header>
+
+    <!-- home section  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Bhimineni Devendra</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          This is my official portfolio website to shows all Details and work
+          experiences on the web development , Data analysis with python , Data science Computer architecture Digital systems  , Structure innovation .
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/BhimineniDevendra"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/_deva_38/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/devendra-bhimineni-3b983a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        
+      </div>
+      <div class="home-img">
+        <img src="photo/suru4.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="photo/suru 7.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>B Tech(Hons) Student</h3>
+        <p>
+          "👨‍💻First-semester BTech student in Computer Science and Engineering at RV University, exploring diverse realms! 🌐 Showcasing skills in web development, Python data analysis, and unraveling the intricacies of computer architecture and digital systems. 🚀 Academic journey enriched with Structured Innovation coursework, fostering a holistic problem-solving approach. Excited to continue navigating the vast landscape of technology and innovation in the upcoming semesters! 🎓💻"
+        </p>
+        
+      </div>
+    </section>
+
+    <!-- skills section  -->
+    <section class="skills" id="skills">
+      <div>
+        <h2 class="heading">My <span>skills</span></h2>
+      </div>
+
+      <div class="skills-items">
+        <div class="skill-card card-1">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML</h3>
+         
+        </div>
+        <div class="skill-card card-2">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS</h3>
+          
+        </div>
+        <div class="skill-card card-3">
+          <i class="bx bxl-javascript"></i>
+          <h3>Java Script</h3>
+         
+        </div>
+        <div class="skill-card card-4">
+          <i class="bx bxl-bootstrap"></i>
+          <h3>Bootstrap</h3>
+         
+        </div>
+        <div class="skill-card card-5">
+          <i class="bx bxl-python"></i>
+          <h3>DAP</h3>
+          
+        </div>
+
+        <div class="skill-card card-8">
+          <i class="bx bxl-github"></i>
+          <h3>Github</h3>
+          
+        </div>
+        <div class="skill-card card-3">
+          <img src="photo/dsca.jpg" style="width: 75px;"</i>
+          <h3>Dsca</h3>
+         
+        </div>
+        <div class="skill-card card-8">
+          <img src="photo/SI LOGO.jpg" style=width:75px;"></i>
+          <h3>SI</h3>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design  -->
+  
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+          <!-- Project 1 -->
+          <div class="portfolio-box">
+              <img src="photo/dap.jpg" alt="Electricity Image" style="width: 400px;">
+              <div class="portfolio-layer">
+                  <h4>Data analysis with Python</h4>
+                  <p>I have done a data Analysis with python Online file data on starbucks.</p>
+                  <a href="https://drive.google.com/file/d/1gzsl506S5kXm6YoxZAgqL3rxS72i5_vQ/view?usp=sharing">View Project</a>
+              </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="portfolio-box">
+              <img src="photo/grocery.jpg" alt="Electricity Image"style="width: 700px;">
+              <div class="portfolio-layer">
+                  <h4>Web Application</h4>
+                  <p>I have done a mini project and introduction to web development, I have created a web application on grocery e-commerce website.</p>
+                  <a href="https://drive.google.com/file/d/1mk1_P7kedLiSn0KtmYnQ3bgcbUPDu7Ms/view?usp=share_link">View Project</a>
+              </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="portfolio-box">
+              <img src="photo/SI LOGO.jpg" alt="Electricity Image" style="width: 500px;">
+              <div class="portfolio-layer">
+                  <h4>S I</h4>
+                  <p>Instruction and innovation course I have Built a game called Ready steady Hogi.</p>
+                  <a href="https://drive.google.com/file/d/1Hau1fzEWSsvATKHP-RIAEoTnkLe2MvI1/view?usp=share_link">View Project</a>
+              </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="portfolio-box">
+              <img src="photo/dscalogo.jpeg" alt="Electricity Image" style="width: 500px;">
+              <div class="portfolio-layer">
+                  <h4>Digital system computer architecture</h4>
+                  <p>I have done a mini project called wireless power transmission.</p>
+                  <a href="https://drive.google.com/file/d/1fPpXKexGFXd3zzzlNwbol9ommZaQ_uO0/view?usp=share_link">View Project</a>
+              </div>
+          </div>
+      </div>
+  </section> 
+  
+  
+    
+    <!-- contact section design -->
+    
+    <section class="contact" id="contact-me">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div class="contact-info">
+          <p>
+              <h2>📞 Phone: <a href="tel:9100945855">8688377635</a><br></h2>
+              <h2>✉ Email: <a href="mailto:bhiminenid.btech23@rvu.edu.in">Bhiminenid.btech23@rvu.edu.in</a></h2>
+          </p>
+          <div class="contact-image">
+              <img src="photo/suru4.png" alt="Profile Image" style="width: 20%;" />
+              <h3>BhimineniDevendra</h3>
+          </div>
+      </div>
+  </section> 
+  
+  
+  
+    <!-- java script link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
